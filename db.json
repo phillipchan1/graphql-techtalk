@@ -1,24 +1,42 @@
 {
-	"users": [
-		{
-			"firstName": "phil",
-			"age": 24,
-			"id": "1"
-		},
-		{
-			"firstName": "joe",
-			"age": 29,
-			"id": "2"
-		},
-		{
-			"firstName": "bob",
-			"age": 2,
-			"id": "3"
-		},
-		{
-			"firstName": "lady",
-			"age": 21,
-			"id": "4"
-		}
-	]
+    "users": [
+        {
+            "firstName": "phil",
+            "age": 24,
+            "id": "1",
+            "companyId": 1
+        },
+        {
+            "firstName": "joe",
+            "age": 29,
+            "id": "2",
+            "companyId": 1
+        },
+        {
+            "firstName": "bob",
+            "age": 2,
+            "id": "3",
+            "companyId": 1
+        },
+        {
+            "firstName": "lady",
+            "age": 21,
+            "id": "4",
+            "companyId": 1
+        }
+    ],
+    "companies": [
+        {
+            "id": 1,
+            "name": "IBM"
+        },
+        {
+            "id": 2,
+            "name": "Apple"
+        },
+        {
+            "id": 3,
+            "name": "SCE"
+        }
+    ]
 }

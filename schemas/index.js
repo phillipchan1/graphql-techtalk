@@ -18,7 +18,7 @@ const companyType = new GraphQLObjectType({
         name: {
             type: GraphQLString,
         },
-        industry: {
+        size: {
             type: GraphQLString,
         },
         user: {
@@ -88,6 +88,22 @@ const userType = new GraphQLObjectType({
     }),
 })
 
+const usersRootQuery = {
+    type: new GraphQLList(userType),
+    resolve() {
+        return axios.get(`http://localhost:3000/users/`).then(res => res.data)
+    },
+}
+
+const companiesRootQuery = {
+    type: new GraphQLList(companyType),
+    resolve() {
+        return axios
+            .get(`http://localhost:3000/companies/`)
+            .then(res => res.data)
+    },
+}
+
 const userRootQuery = {
     type: userType,
     args: {
@@ -136,6 +152,8 @@ const RootQuery = new GraphQLObjectType({
     fields: {
         user: userRootQuery,
         company: companyRootQuery,
+        users: usersRootQuery,
+        companies: companiesRootQuery,
     },
 })
 

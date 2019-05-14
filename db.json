@@ -25,7 +25,7 @@
             "friends": ["1", "2"]
         },
         {
-            "firstName": "lady",
+            "firstName": "peacore",
             "age": 21,
             "height": 24,
             "id": "4",
@@ -36,69 +36,58 @@
             "firstName": "tera",
             "age": 24,
             "height": 24,
-            "id": "1",
-            "companyId": 2,
+            "id": "5",
+            "companyId": 3,
             "friends": ["1", "2", "3"]
         },
         {
             "firstName": "roshan",
             "age": 24,
             "height": 24,
-            "id": "1",
-            "companyId": 2,
+            "id": "6",
+            "companyId": 3,
             "friends": ["1", "2"]
         },
         {
             "firstName": "govind",
             "age": 24,
             "height": 24,
-            "id": "1",
-            "companyId": 2,
+            "id": "7",
+            "companyId": 3,
             "friends": ["1"]
         },
         {
-            "firstName": "jojo",
-            "age": 23,
-            "id": "Mt-eD4F"
+            "firstName": "kazader",
+            "age": 24,
+            "height": 24,
+            "id": "8",
+            "companyId": 3,
+            "friends": ["1"]
         },
         {
-            "firstName": "peacore",
-            "age": 23,
-            "id": "p4fDTR1"
-        },
-        {
-            "firstName": "peacore",
-            "age": 23,
-            "id": "62WbF1_"
-        },
-        {
-            "firstName": "peadcore",
-            "age": 23,
-            "id": "q_1NgM_"
-        },
-        {
-            "firstName": "peadcore",
-            "age": 23,
-            "id": "59Z7n4i"
-        },
-        {
-            "firstName": "bill",
-            "age": 25,
-            "id": "sdqkB2L"
+            "firstName": "crystal",
+            "age": 24,
+            "height": 24,
+            "id": "8",
+            "companyId": 3,
+            "friends": ["1", "5", "6"]
         }
     ],
     "companies": [
         {
             "id": 1,
-            "name": "IBM"
+            "name": "IBM",
+            "size": "large"
         },
         {
             "id": 2,
-            "name": "Apple"
+            "name": "Apple",
+            "size": "large"
         },
         {
             "id": 3,
-            "name": "SCE"
+            "name": "SCE",
+            "size": "medium"
         }
     ]
 }
